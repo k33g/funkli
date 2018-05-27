@@ -4,31 +4,6 @@ const Validation = monet.Validation
 const checkRunArgs = require('./funk-check-run-args').checkRunArgs
 const readFile = require('./funk-read').readFile
 
-// node funkli.js --action run --token panda --url http://localhost:8080 --kind js --name ping
-// pkg funkli.js
-// ./funkli-macos --action run --token panda --url http://localhost:8080 --kind kt --name pong
-/* 
-node funkli.js --action run \
---token panda \
---url http://localhost:8080 \
---kind js \
---name ping
-
-./funkli-macos --action run \
---token panda \
---url http://localhost:8080 \
---kind js \
---name message \
---parameters '{"message":"hello world!"}'
-
-node funkli.js --action run \
---token panda \
---url http://localhost:8080 \
---kind js \
---name message \
---parameters '{"message":"hello world!"}'
-
-*/
 function run({token, name, kind, url, parameters}) {
 
   //console.log(`> checking arguments ...`)

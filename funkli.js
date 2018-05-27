@@ -30,7 +30,6 @@ function remove() {
   // 🚧 WIP
 } 
 
-// node funkli.js --action create --token panda --url http://localhost:8080 --kind js --name oula
 function call(action) {
   action.cata(() => {
     console.log("--action can't be null")
