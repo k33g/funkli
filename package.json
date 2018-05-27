@@ -1,0 +1,25 @@
+{
+  "name": "funkli",
+  "version": "1.0.0",
+  "description": "CLI for https://github.com/k33g/funk",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k33g/funkli.git"
+  },
+  "author": "@k33g",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k33g/funkli/issues"
+  },
+  "homepage": "https://github.com/k33g/funkli#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "monet": "^0.8.10",
+    "yargs": "^11.0.0"
+  }
+}
